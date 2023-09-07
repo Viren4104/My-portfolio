@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#box {
+    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #3c373771;
+    color: rgb(253, 247, 251);
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+}
+#box:hover {
+    background-color: rgb(255, 0, 0)
+    color: rgba(0, 0, 0, 0.612);
+}
+.Education {
+    display: flex;
+    justify-content: space-between;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#button {
+    background-color:#FF00FF;
+    border: 1px solid #d7d5d9;
+    border-radius: 8px;
+    box-shadow: rgba(217, 217, 213, 0.5) 0 2px 5px 0;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 10px 0 11px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+    position: relative;
+    height: 30px;
+    margin: auto 0px;
+}
+#button:hover {
+    background-color: #f7fafa;
+}
+#button:focus {
+    border-color: #0000FF;
+    box-shadow: rgba(216, 213, 217, 0.5) 0 2px 5px 0;
+    outline: 0;
+}
+body {
+    /* background-color: #041219;
+    background-image: linear-gradient(0deg, #041219 0%, #16b3a0 100%); */
+    background-color: rgba(0, 1, 33, 0.274);
+    color:yellow;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: #041219;
+    background-image: linear-gradient(68deg, #041219 0%, #16b3a0 100%);
+}
+.left {
+    font-size: 1.5rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 35px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgba(236, 230, 250, 0.452);
+}
+img {
+    height: 410px;
+    width: 200px;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 8vh 0;
+    align-items: center;
+}
+.firstSection > div {
+    width: 40%;
+}
+.leftSection {
+    font-size: 3rem;
+}
+.rightSection img {
+    width: 90%;
+}
+.purple {
+    color: rgb(14, 235, 165);
+}
+#element {
+    color: rgb(174, 67, 124);
+}
+main hr {
+    border: 0px;
+    background-color: rgb(255, 165, 0)
+    height: 2px;
+    margin: 5vh 5vw;
+}
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+}
+.secondSecondSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.thirdSection {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    height: 60vh;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footerFirstSection {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footerFirstSection p {
+    margin: auto;
+}
+.flex {
+    display: flex;
+    gap: 20px;
+}
+.button{
+background-color: #ffffffd7;
+border: 1px solid #d5d9d985;
+border-radius: 8px;
+box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+box-sizing: border-box;
+color: #0f1111;
+cursor: pointer;
+display: inline-block;
+font-family: "Amazon Ember",sans-serif;
+font-size: 15px;
+line-height: 30px;
+padding: 0 11px 0 111px;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+width: 100px;
+height: 40px;
+width: 40px;
+}
+.button:hover {
+background-color:#ff0000;
+
+
+}
+
+.button:focus {
+border-color:#ffdab9;
+box-shadow: rgb(255,215,0) 0 2px 5px 0;
+outline: 0;
+}
+a {
+    text-decoration: none;
+}
+.copy {
+    margin: 90px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
